@@ -16,6 +16,7 @@ import com.mongodb.ReadPreference;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import io.airbyte.cdk.integrations.debezium.internals.mongodb.MongoDbDebeziumPropertiesManager;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Helper utility for building a {@link MongoClient}.
